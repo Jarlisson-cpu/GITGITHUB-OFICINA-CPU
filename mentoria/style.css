@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ativar{
+    background-color:transparent;
+    border: 1px solid green;
+    color:rgb(0, 0, 0);
+    cursor:pointer;
+    transition: 0.3s;
+
+}
+
+.ativar:hover {
+    background-color: rgb(6, 4, 4);
+    color: white;
+}
+
+body {
+    color: rgb(1, 1, 1);
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#link:hover {
+    transition: 1s;
+    font-size: 5rem;
+    margin: 3rem auto;
+    color: royalblue;
+    
+}
+
+ul {
+    display: flex;
+    border: 1px solid red;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+ul li {
+    border: 1px solid green;
+    margin: .5rem;
+}
+
+body {
+background-image: url(https://cdn.pixabay.com/photo/2021/10/12/17/41/abstract-6704211_640.jpg)
+}
